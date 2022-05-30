@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color;
+    
     color: #fff;
     float:right;
 }
@@ -32,7 +32,7 @@ body{
     display: block;
 }
 .navlinks ul li a:hover{
-    background-color: #555;  
+    background-color:#ff4800;  
 }
 .ham{
     position: absolute;
@@ -78,10 +78,11 @@ body{
 }
 button
 {
-  background-color:orange;
+  background-color: #ff4800;
   padding:10px;
   margin:10px;
   border-radius:10px;
+  margin-left: 52px;
   
 }
 
@@ -119,3 +120,216 @@ button
       color: coral;
 
   }
+
+
+.business{
+    background-color: black;
+    width: 100%;
+    height: 350px;
+    
+}
+.business,.sideimg{
+
+    display: flex;
+}
+.subbusiness{
+    width: 60%;
+    margin-left: 20px;
+
+}
+.sideimg{
+    width: 40%;
+    border-radius: 100px;
+    margin-left: 220px;
+    line-height: 100px;
+    padding-top: 35px;
+}
+ 
+
+
+body {
+  width: 100%;
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 1.25em;
+  color: #242424;
+} */
+@media (max-width: 960px) {
+  body {
+    padding: 0 1em;
+  }
+}
+main {
+  max-width: calc(960px - 2em);
+  margin: 32px auto; 
+}
+@media (max-width: 960px) {
+  main {
+    width: 100%;
+  }
+}
+a {
+  color: inherit;
+}
+p {
+  margin-bottom: 1em;
+}
+p:last-child {
+  margin-bottom: ;
+}
+
+/***********************
+ * benefit box styling *
+ ***********************/
+.benefits {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.box {
+  margin: 0 1em 3em 1em;
+}
+.box-third {
+  width: calc(33.3333% - 2em);
+}
+@media (max-width: 960px) {
+  .box-third {
+    width: calc(50% - 2em);
+  }
+}
+@media (max-width: 640px) {
+  .box-third {
+    width: calc(100% - 2em);
+  }
+}
+.box-title {
+  font-weight: 700;
+  line-height: 1.5em;
+  padding: 8px 0;
+  margin-bottom: 8px;
+}
+.box-benefit {}
+.box-benefit p {
+  text-align: center;
+  line-height: 1.5em;
+}
+.box-benefit .box-title {
+  text-align: center;
+}
+/* .subbenefits,.h4{
+    text-align: center;
+} */
+.body{
+  width: 100%;
+}
+
+
+.subcustomer,.sideimg2{
+  display: flex;  
+}  
+.customer{
+  background-color: #eff2f2;
+  height: 400px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+.sideimg3{
+  width: 40%;
+  /* float: right; */
+text-align: center;
+margin:0px;
+padding: 10px;
+align-self: center;
+}
+.topics{
+  width: 60%;
+  padding: 40px;
+  margin-right:0px;
+  font-size: 20px;
+
+}
+/* .topics,.sideimg3{
+  display: flex;
+} */
+.chooseus{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+/* * {
+  box-sizing: border-box;
+} */
+.col-md-4{
+	float: left;
+  	width: 25%;
+  	padding: 10px;
+  	height: 85px;
+}
+.fourcl:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+
+
+
+
+
+
+.subbuilding{
+  background-repeat: repeat-x;
+  /* background-image: url(images/pikb29.jpg); */
+}
+.col-mx-1{
+  float: left;
+  width: 20%;
+  padding: 20px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.row2:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+.sublogo{
+  float:right;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+.sublogo4{
+  float: left;
+  margin-left: 100px;
+}
+
+
+
+
+
+
+.container{
+  width: 100%;
+}
+
+
+
