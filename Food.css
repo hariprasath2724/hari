@@ -1,0 +1,22 @@
+.menuspan{
+    padding: 10px;
+    margin: 10px;
+    margin-left: 150px;
+    justify-content: center;
+    border: 1px solid crimson;
+    justify-content: center;
+
+
+}
+.menuspan:hover{
+    background-color: coral;
+}
+.menudiv{
+    /* padding: 20px;
+    margin: 10px;
+    margin-left: 200px; */
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 600px;
+}
